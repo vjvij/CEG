@@ -5,12 +5,12 @@ function Footer() {
 
         <div style={{display:"flex",justifyContent:"space-around"}}>
             <div>
-                <div style={{display:"grid",gap:"10px" ,color:"blue"}}> <div >Centre for Distance Education</div>
+                <div style={{display:"grid",gap:"10px" ,color:"blue",cursor: "pointer"}}> <div >Centre for Distance Education</div>
                    <div>  Anna Univeristy</div>
                     <div>Chennai</div>
                     <div>600025</div>
-                    <div>Tel: 044-22357216/21</div>
-                <div>Email: distanceprog@annauniv.edu
+                    <div>Tel: <span style={{color:"green" }}>044-22357216/21</span></div>
+                <div>Email: <span style={{color:"green"}}>distanceprog@annauniv.edu</span>
                 </div>
                     </div>
                 
@@ -23,7 +23,7 @@ function Footer() {
             </div>
             <div style={{display:"grid",gap:"10px"}}>
                    <h3>STAY UP TO DATE WITH WHATS HAPPENING</h3>
-                   <div className="footer_social_media_icons" style={{display:"flex",height:"60px"}}>
+                   <div className="footer_social_media_icons" style={{display:"flex",height:"60px",cursor: "pointer"}}>
                      <div>
                         <img src="https://tse2.mm.bing.net/th?id=OIP.ioAVkOV4rYT_5FhBYQOx_QHaHa&pid=Api&P=0&h=180"/>
                      </div>
@@ -46,7 +46,7 @@ function Footer() {
                      <div>SUBSCRIBE TO OUR NEWSLETTER:</div>
                      <div>
                         <input placeholder="Enter email address"/>
-                        <button>Submit</button>
+                        <button style={{cursor: "pointer"}}>Submit</button>
                      </div>
             </div>
 

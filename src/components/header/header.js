@@ -7,7 +7,7 @@ function Header(){
                     <div style={{fontSize:"20px"}}>
                         <div>   CENTRE FOR DISTANCE EDUCATION
                      ANNA UNIVERSITY, CHENNAI-25</div>
-                     <div style={{display:"flex",gap:"4px",justifyContent:"space-around",fontSize:"16px",marginTop:"10px"}}>
+                     <div style={{display:"flex",gap:"4px",justifyContent:"space-around",fontSize:"16px",marginTop:"10px",cursor: "pointer"}}>
                         <span>Home</span>
                         <span>|</span>
                         <span>Contact us</span>
@@ -19,13 +19,15 @@ function Header(){
                      </div>
                      <img width={"200px"} height={"150px"} src="https://cde.annauniv.edu/images/UGCDEB_2023APPLICATION.png"/>
                  </div>
-                 <div style={{display:"flex",justifyContent:"space-around",alignItems:"center",height:"100%",backgroundColor:"#750087",height:"50px"}}>
-                  <div>About us</div>
-                  <div>academic</div>
-                  <div>About us</div>
-                  <div>academic</div>
-                  <div>About us</div>
-                  <div>academic</div>
+                 <div style={{display:"flex",justifyContent:"space-around",alignItems:"center",height:"100%",backgroundColor:"#750087",height:"50px",cursor: "pointer"}}>
+                  <div >ABOUT US</div>
+                  <div>ACADEMIC</div>
+                  <div>ADMISSION</div>
+                  <div>ADMINISTRATION</div>
+                  <div>PROJECT</div>
+                  <div>FAQ</div>
+                  <div>GALLERY</div>
+                  <div>EXAMINATION</div>
                  </div>
       </div>)
 

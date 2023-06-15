@@ -16,33 +16,33 @@ function MainContent() {
                     <strong style={{color:"white",fontSize:"20px"}} >FEE PAYMENT </strong>
                     <br></br>
                     <br></br>
-                    <strong  style={{color:"red",backgroundColor:"white"}}>Click here</strong>
+                    <strong  style={{color:"red",backgroundColor:"white",cursor: "pointer"}}>Click here</strong>
 
 
                 </div>
                 <div style={{backgroundColor:"#ffffcc",width:"400px",height:"auto"}}>
                   <div className="detail_admission_heading">
-                  <h4> DETAILS OF THE ADMISSION: 2018 - 2019</h4>
+                  <h4 style={{cursor: "pointer"}} > DETAILS OF THE ADMISSION: 2018 - 2019</h4>
                   <div>
-                  <div>► AY 2018 (JULY. 2018).</div>
-                  <div>► CY 2019 (FEB. 2019),</div>
-                  <div>► AY 2019 (AUG. 2019)</div>
+                  <div style={{cursor: "pointer"}} >► AY 2018 (JULY. 2018).</div>
+                  <div style={{cursor: "pointer"}} >► CY 2019 (FEB. 2019),</div>
+                  <div style={{cursor: "pointer"}} >► AY 2019 (AUG. 2019)</div>
                   </div>
                   </div>
                   <div className="detail_admission_heading">
-                  <h4> DETAILS OF THE ADMISSION: 2018 - 2019</h4>
+                  <h4 style={{cursor: "pointer"}} > DETAILS OF THE ADMISSION: 2018 - 2019</h4>
                   <div>
-                  <div>► AY 2018 (JULY. 2018).</div>
-                  <div>► CY 2019 (FEB. 2019),</div>
-                  <div>► AY 2019 (AUG. 2019)</div>
+                  <div style={{cursor: "pointer"}} >► AY 2018 (JULY. 2018).</div>
+                  <div style={{cursor: "pointer"}} >► CY 2019 (FEB. 2019),</div>
+                  <div style={{cursor: "pointer"}} >► AY 2019 (AUG. 2019)</div>
                   </div>
                   </div>
                   <div className="detail_admission_heading">
-                  <h4> DETAILS OF THE ADMISSION: 2018 - 2019</h4>
+                  <h4 style={{cursor: "pointer"}} > DETAILS OF THE ADMISSION: 2018 - 2019</h4>
                   <div>
-                  <div>► AY 2018 (JULY. 2018).</div>
-                  <div>► CY 2019 (FEB. 2019),</div>
-                  <div>► AY 2019 (AUG. 2019)</div>
+                  <div style={{cursor: "pointer"}} >► AY 2018 (JULY. 2018).</div>
+                  <div style={{cursor: "pointer"}} >► CY 2019 (FEB. 2019),</div>
+                  <div style={{cursor: "pointer"}} >► AY 2019 (AUG. 2019)</div>
                   </div>
                   </div>
                   
