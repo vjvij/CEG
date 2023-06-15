@@ -1,0 +1,47 @@
+.detail_admission_heading h4{
+    color: blue;
+    text-decoration: underline;
+}
+.detail_admission_heading div{
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+    padding: 5px;
+   
+}
+.moving-text{
+    
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* animation: moveUp 4s linear infinite; */
+}
+.moving-text span{
+    position: absolute;
+    animation: moveUp 7s linear infinite;
+}
+
+@keyframes moveUp {
+
+    0%{
+        top: 50%;
+
+    }
+    25%{
+        top: 40%;
+        
+    }
+    50%{
+        top: 30%;
+        
+    }
+    75%{
+        top: 20%;
+    }
+    100%{
+        top:10%;
+    }
+    
+}
